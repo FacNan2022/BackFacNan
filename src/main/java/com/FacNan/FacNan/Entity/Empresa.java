@@ -25,6 +25,11 @@ public class Empresa {
     @NotNull
     private String imagen;
 
+    public Empresa() {
+    }
+    
+    
+
     public Empresa(String nombre, String sobre_nosotros, String imagen) {
         this.nombre = nombre;
         this.sobre_nosotros = sobre_nosotros;
