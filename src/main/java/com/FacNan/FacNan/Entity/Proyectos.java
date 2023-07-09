@@ -22,6 +22,10 @@ public class Proyectos {
        @NotNull
     private String descripcion;
 
+    public Proyectos() {
+    }
+       
+
     public Proyectos(String nombreProyecto, String link, String img, String descripcion) {
         this.nombreProyecto = nombreProyecto;
         this.link = link;
